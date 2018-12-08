@@ -51,7 +51,7 @@ export default class ToDo extends Component {
             <Text
               style={[
                 styles.text,
-                isComplete ? styles.completeText : styles.UnCompleteText
+                isComplete ? styles.completeText : styles.unCompleteText
               ]}
             >
               {text}
